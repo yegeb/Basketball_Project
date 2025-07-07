@@ -1,7 +1,7 @@
 # Basketball Video Analysis System
 
 This project is a modular pipeline designed to analyze basketball games from video footage. 
-It combines state-of-the-art object detection, tracking, homography mapping, event detection, and statistical overlays to generate rich visual and data insights for each game.
+It combines  object detection, tracking, homography mapping, event detection, and statistical overlays to generate rich visual and data insights for each game.
 
 ## Overview
 
