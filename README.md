@@ -22,13 +22,20 @@ It combines state-of-the-art object detection, tracking, homography mapping, eve
 ## Repository Structure
 ### Source Code (src/)
 Contains all the Python files implementing the core functionality:
-main.py: Entry point to the full pipeline
-player_tracker.py, ball_tracker.py: Tracking modules using YOLO + ByteTrack
-court_kp_detector.py, court_map.py, homography.py: For court keypoint detection and coordinate mapping
-team_assigner.py: Classifies players into teams based on jersey color
-ball_acqs_detector.py: Detects ball possession
-pass_and_interception_detector.py: Detects pass and steal events
-speed_and_dist_calc.py: Computes speed and distance covered
+
+**main.py:** Entry point to the full pipeline
+
+**player_tracker.py, ball_tracker.py:** Tracking modules using YOLO + ByteTrack
+
+**court_kp_detector.py, court_map.py, homography.py:** For court keypoint detection and coordinate mapping
+
+**team_assigner.py:** Classifies players into teams based on jersey color
+
+**ball_acqs_detector.py:** Detects ball possession
+
+**pass_and_interception_detector.py:** Detects pass and steal events
+
+**speed_and_dist_calc.py:** Computes speed and distance covered
 
 ### Models (models/)
 Stores trained YOLO and CLIP models used in detection and classification tasks.
