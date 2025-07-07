@@ -1,0 +1,14 @@
+# Ignore videos
+input_videos/
+*.mp4
+
+# Ignore PyTorch model weights
+models/
+*.pt
+
+# Ignore compiled Python files and cache
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
